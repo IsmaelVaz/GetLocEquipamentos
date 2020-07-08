@@ -1,0 +1,3 @@
+{{strip}}
+    Menu
+{{/strip}}

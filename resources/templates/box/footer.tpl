@@ -1,0 +1,5 @@
+{{strip}} 
+
+</body>
+</html>
+{{/strip}}
