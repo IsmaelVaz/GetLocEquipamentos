@@ -1,3 +1,2 @@
 ﻿# GetLocEquipamentos
-Sistema Orçamentos para Locação de Equipamentos
-1
+Sistema de Orçamentos para Locação de Equipamentos
