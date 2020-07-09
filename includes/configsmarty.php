@@ -7,4 +7,6 @@
     $smarty->setCacheDir(DIR.'/resources/cache/');
     $smarty->setLeftDelimiter('{{');
     $smarty->setRightDelimiter('}}');
+    
+    $_SESSION['smarty'] = $smarty;
 ?>
