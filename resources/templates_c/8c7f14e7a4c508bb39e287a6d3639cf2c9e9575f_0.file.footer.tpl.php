@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-07-08 02:52:33
+/* Smarty version 3.1.36, created on 2020-07-11 08:11:55
   from 'C:\work\www\getlocequipamentos\resources\templates\box\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
-  'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f0518d1bb7f71_38171595',
+  'version' => '3.1.36',
+  'unifunc' => 'content_5f09582bcee8b7_16106911',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,12 +20,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f0518d1bb7f71_38171595 (Smarty_Internal_Template $_smarty_tpl) {
-ob_start();
-$_prefixVariable9 = ob_get_clean();
-echo $_prefixVariable9;?>
-</body></html><?php ob_start();
-$_prefixVariable10 = ob_get_clean();
-echo $_prefixVariable10;
-}
+function content_5f09582bcee8b7_16106911 (Smarty_Internal_Template $_smarty_tpl) {
+?></body></html><?php }
 }

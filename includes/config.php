@@ -9,9 +9,9 @@
         $pass= '';
         $database= '';
         
-        define('URL', 'http://localhost/getlocequipamentos/');
-        define('URLS', 'https://localhost/getlocequipamentos/');
-        define('DIR', 'C:/work/www/getlocequipamentos/');
+        define('URL', 'http://localhost/getlocequipamentos/src/');
+        define('URLS', 'https://localhost/getlocequipamentos/src/');
+        define('DIR', 'C:/work/www/getlocequipamentos/src/');
         break;
     default:
         break;

@@ -5,4 +5,4 @@ Options +FollowSymLinks
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?%{REQUEST_URI} [NC,L]
+RewriteRule ^(.*)$ puplic/index.php?%{REQUEST_URI} [NC,L]
