@@ -6,6 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'ComandosClasses' => $baseDir . '/database/core/database.class.php',
+    'Commons' => $baseDir . '/database/core/commons.class.php',
+    'Conexao' => $baseDir . '/database/core/database.class.php',
+    'IBanco' => $baseDir . '/database/core/database.class.php',
+    'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+    'Normalizer' => $vendorDir . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
     'Smarty' => $vendorDir . '/smarty/smarty/libs/Smarty.class.php',
     'SmartyBC' => $vendorDir . '/smarty/smarty/libs/SmartyBC.class.php',
     'SmartyCompilerException' => $vendorDir . '/smarty/smarty/libs/sysplugins/smartycompilerexception.php',
@@ -177,6 +183,15 @@ return array(
     'Smarty_Template_Source' => $vendorDir . '/smarty/smarty/libs/sysplugins/smarty_template_source.php',
     'Smarty_Undefined_Variable' => $vendorDir . '/smarty/smarty/libs/sysplugins/smarty_undefined_variable.php',
     'Smarty_Variable' => $vendorDir . '/smarty/smarty/libs/sysplugins/smarty_variable.php',
+    'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'TPC_yyStackEntry' => $vendorDir . '/smarty/smarty/libs/sysplugins/smarty_internal_configfileparser.php',
     'TP_yyStackEntry' => $vendorDir . '/smarty/smarty/libs/sysplugins/smarty_internal_templateparser.php',
+    'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+    'atributo' => $baseDir . '/database/class/atributo.class.php',
+    'core_atributo' => $baseDir . '/database/core/core_atributo.class.php',
+    'ibaseconect' => $baseDir . '/database/core/database.class.php',
+    'mssqlconnect' => $baseDir . '/database/core/database.class.php',
+    'mysqlconect' => $baseDir . '/database/core/database.class.php',
+    'mysqliconnect' => $baseDir . '/database/core/database.class.php',
+    'pgconnect' => $baseDir . '/database/core/database.class.php',
 );

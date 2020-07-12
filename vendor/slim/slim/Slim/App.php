@@ -291,7 +291,6 @@ class App
     public function run($silent = false)
     {
         $response = $this->container->get('response');
-
         try {
             ob_start();
             $response = $this->process($this->container->get('request'), $response);
@@ -303,6 +302,7 @@ class App
 
         if (!empty($output) && $response->getBody()->isWritable()) {
             $outputBuffering = $this->container->get('settings')['outputBuffering'];
+        parr($outputBuffering);
             if ($outputBuffering === 'prepend') {
                 // prepend output buffer content
                 $body = new Http\Body(fopen('php://temp', 'r+'));

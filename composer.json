@@ -1,6 +1,17 @@
-{
+{   
     "require": {
         "slim/slim": "3.*",
-        "smarty/smarty": "3.*"
+        "smarty/smarty": "3.*",
+        "doctrine/orm": "2.7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "database/core",
+            "database/class",
+            "routes"
+        ]
     }
 }

@@ -1,4 +1,0 @@
-- pessoa fisica poder colocar seus equipamentos para as empresas sublocar
-- area para publicidade das empresas
-- qtd de views de pessoas
-- 
